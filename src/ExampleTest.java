@@ -1,14 +1,14 @@
-import static org.junit.Assert.*;
-import static org.hamcrest.CoreMatchers.*;
+import static org.junit.Assert.assertSame;
 
 import org.junit.Test;
 
 public class ExampleTest {
 
 	@Test
-	public void test() {
+	public void サンプルテスト() {
 		String expected = "ABC";
 		String actual = "ABC";
+
 		assertSame(expected, actual);
 	}
 }
